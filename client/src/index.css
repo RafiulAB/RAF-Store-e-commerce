@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+/* //navbar css */
+.navbar {
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px gray;
+    --webkit-box-shadow: 0 8px 6px -6px gray;
+    border-bottom: solid gray !important;
+  }
+  .nav-link {
+    font-weight: 300 !important;
+    color: white
+  }
+  .nav-link:hover{
+    color: white;
+   
+  }
+  
+  .active {
+    
+    border-bottom: 2px solid white;
+    
+  }
+  .navbar-brand {
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
+    letter-spacing: 3px;
+  }
+  
+  /* =============================
+==========footer============= */
+
+.footer {
+    color: white;
+    padding: 25px;
+    background: #6a5fbe; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #541898
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a6abf1, #294ce4);
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  .footer a:hover {
+    color: #ffefba;
+    border-bottom: 1px solid #ffefba;
+  }
+
+  /* ======== page not found css =======  */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+    color: red;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+    color: red;
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid rgb(232, 49, 49);
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: rgb(221, 43, 43);
+  color: white;
+}
+
+ /* Admins manage products */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
